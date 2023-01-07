@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.imageOverly {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 122, 223, 0.48) 0%,
+    rgba(255, 255, 255, 0.128) 100%
+  );
+}
+/* tabs style */
+.css-heg063-MuiTabs-flexContainer button {
+  color: #333333 !important;
+  font-size: 13px !important;
+  font-weight: 500;
+}
+.css-heg063-MuiTabs-flexContainer button.Mui-selected {
+  color: red !important;
+  border: none !important;
+}
