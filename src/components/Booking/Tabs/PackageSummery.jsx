@@ -80,7 +80,7 @@ function PackageSummery() {
           Package Summery Details
         </div>
         {/* ==============ist column */}
-        <div className="col-auto lg:col-span-1 flex flex-col justify-start items-start gap-6 p-4 py-5 my-6 md:py-0 md:py-10">
+        <div className="col-auto lg:col-span-1 flex flex-col justify-start items-start gap-6 p-4 py-5 md:py-10">
           <p className="text-[16px] font-Mullish text-[red]">
             Purchase Inclusions
           </p>
@@ -217,6 +217,5 @@ const ComplimentaryWaterBasedActivities = [
 const MealPlanAvailable = ["Half Board", "All Inclusive"];
 const Entertainment = ["Live music", "DJ & Mauritian Dance Show"];
 const CheckInCheckOut = ["Check In Time 14:00", "Check Out Time 11:00"];
-
 
 export default PackageSummery;
