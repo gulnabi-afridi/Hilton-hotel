@@ -26,5 +26,14 @@ body {
 }
 .css-heg063-MuiTabs-flexContainer button.Mui-selected {
   color: red !important;
-  border: none !important;
+ 
+
+}
+.MuiTabs-flexContainer button{
+  color: #333333 !important;
+  font-size: 13px !important;
+  font-weight: 500;
+}
+.MuiTabs-flexContainer button.Mui-selected{
+  color: red !important;
 }

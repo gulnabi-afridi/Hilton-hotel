@@ -31,7 +31,7 @@ function Home() {
           })}
         </div>
         {/* ==========> Hotel name + user rating */}
-        <div className="w-full flex flex-wrap gap-4 md:gap-0 justify-center md:justify-between items-center">
+        <div className="w-full flex flex-wrap gap-7 md:gap-0 justify-center md:justify-between items-center">
           {/* name */}
           <div className="flex flex-col justify-center items-start">
             <div className="flex justify-start items-center gap-4">
@@ -56,7 +56,7 @@ function Home() {
           </div>
         </div>
         {/* ==================>hotel image + view other options + map */}
-        <div className="w-full flex lg:flex-row flex-col gap-6 justify-start items-center py-6 md:py-4">
+        <div className="w-full flex lg:flex-row flex-col gap-6 justify-start items-center py-8 md:py-4">
           {/* ===========>hotel image */}
           <div className="relative w-full lg:w-[75%] flex justify-center items-center">
             <img className="w-full h-full " src="hotelImage.png" alt="" />

@@ -80,7 +80,7 @@ function PackageSummery() {
           Package Summery Details
         </div>
         {/* ==============ist column */}
-        <div className="col-auto lg:col-span-1 flex flex-col justify-start items-start gap-6 p-4 py-5 md:py-10">
+        <div className="col-auto lg:col-span-1 flex flex-col justify-start items-start gap-6 p-4 py-5 md:py-[38px]">
           <p className="text-[16px] font-Mullish text-[red]">
             Purchase Inclusions
           </p>
