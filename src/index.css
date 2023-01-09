@@ -37,3 +37,6 @@ body {
 .MuiTabs-flexContainer button.Mui-selected{
   color: red !important;
 }
+.MuiTabs-indicator{
+  background-color: red !important;
+}
